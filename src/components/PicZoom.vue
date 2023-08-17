@@ -145,7 +145,7 @@ const mousemove = (e) => {
   if (!state.init) {
     return false
   }
-  if(state.canvas.height === 0  || state.canvas.width === 0){
+  if (state.canvas.height === 0 || state.canvas.width === 0) {
     initTime()
   }
   //获取实际的offset
@@ -333,7 +333,7 @@ const rotateImg = (img, direction, step, isBig = false) => {
     </div>
   </div>
 </template>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .magnifier-box {
   width: 100%;
   height: 100%;
@@ -357,7 +357,7 @@ const rotateImg = (img, direction, step, isBig = false) => {
       cursor: pointer;
       width: 16px;
       height: 16px;
-      background: url(../rotate.png);
+      // background: url(../rotate.png);
       background-size: 100% 100%;
       -moz-transform: scaleX(-1);
       -webkit-transform: scaleX(-1);
@@ -373,7 +373,7 @@ const rotateImg = (img, direction, step, isBig = false) => {
       display: inline-block;
       width: 16px;
       height: 16px;
-      background: url(../rotate.png);
+      // background: url(../rotate.png);
       background-size: 100% 100%;
     }
   }

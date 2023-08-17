@@ -2,16 +2,16 @@
   <div id="app">
       <p>配置3倍放大：<span style="color:#ff6600">:scale="3"</span></p>
       <div class="pic-box">
-        <pic-zoom url="static/imac2.jpg" :scale="3"></pic-zoom>
+        <pic-zoom url="./assets/1.jpg" :scale="3"></pic-zoom>
       </div>
       
       <p>配置放大时可滚动页面(滚轮)：<span style="color:#ff6600">:scroll="true"</span></p>
       <div class="pic-box">
-        <pic-zoom url="static/imac2.jpg" :scale="3" :scroll="true"></pic-zoom>
+        <pic-zoom url="./assets/1.jpg" :scale="3" :scroll="true"></pic-zoom>
       </div>
       <p>分开配置大小图片地址：<span style="color:#ff6600">url="static/imac2_thumb.jpg" big-url="static/imac2.jpg"</span></p>
       <div class="pic-box">
-        <pic-zoom url="static/imac2_thumb.jpg" big-url="static/imac2.jpg" :scale="3" ></pic-zoom>
+        <pic-zoom url="./assets/1.jpg" big-url="./assets/1.jpg" :scale="3" ></pic-zoom>
       </div>
       <p>显示旋转按钮：<span style="color:#ff6600">:show-eidt="true"</span></p>
       <div class="pic-box">
@@ -31,7 +31,7 @@ export default {
   },
   data(){
     return{
-      url:"static/imac2.jpg"
+      url:"./assets/1.jpg"
     }
   },
   methods:{
