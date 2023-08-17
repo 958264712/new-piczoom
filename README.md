@@ -9,6 +9,8 @@ vue3-piczoom
 ```使用use```
 ```js
 --script
+直接在你需要使用的vue文件中引用
+vue2中这样注册
 import PicZoom from 'vue3-piczoom'
 export default {
   name: 'App',
@@ -16,8 +18,10 @@ export default {
     PicZoom
   }
 }
+vue3中这样即可使用
+import PicZoom from 'vue3-piczoom'
 --html
-<pic-zoom url="assets/1.jpg" :scale="3"></pic-zoom>
+<pic-zoom :url="url" :scale="3"></pic-zoom>
 ```
 ### Config配置
 ```
