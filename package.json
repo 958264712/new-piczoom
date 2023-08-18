@@ -1,6 +1,6 @@
 {
   "name": "vue3-piczoom",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/vue3-piczoom.js",
   "scripts": {
     "dev": "webpack server",
