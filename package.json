@@ -38,5 +38,13 @@
     "vue-loader": "^17.2.2",
     "vue-template-compiler": "^2.7.14",
     "wait-on": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/958264712/new-piczoom"
+  },
+  "homepage": "https://github.com/958264712/new-piczoom/blob/master/src/components/PicZoom",
+  "bugs": {
+    "url": "https://github.com/958264712/new-piczoom/issues"
   }
 }
